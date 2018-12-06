@@ -50,11 +50,11 @@ function runSearch() {
 
         if (res[0].stock_quantity < value.quantity) {
 
-          console.log("Insufficient quantity");
+          console.log("Insufficient quantity.");
         } else {
           connection.query(newQuery, [value.quantity, value.item_id], function (err, res) {
             if (err) throw err;
-            console.log(res);
+            console.log("Your purchase was successful!");
           });
         }
       });
