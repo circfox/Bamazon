@@ -5,4 +5,3 @@ Once the customer has placed the order, the app checks if store has enough quant
 However if there is enough quantity of the bought product, the customer's order is fulfilled.  
 
 ![GitHub Logo](assets/images/image_2.png)![GitHub Logo](assets/images/image_3.png)
-<!-- Format: ![Alt Text](url -->
